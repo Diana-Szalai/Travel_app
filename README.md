@@ -16,3 +16,7 @@ This is a travel application which includes a simple form where you enter the lo
 - Add end date and display length of trip.
 - Incorporate icons into forecast.
 
+## Images
+
+<img src="https://github.com/Diana-Szalai//Travel_app/blob/master/src/client/views/photos/Img_2.png?raw=true" width="423" height="266" />
+<img src="https://github.com/Diana-Szalai//Travel_app/blob/master/src/client/views/photos/Img_1.png?raw=true" width="423" height="264" />
