@@ -26,9 +26,6 @@ app.get('/test', function (req, res) {
     res.json(mockAPIResponse);
 })
 
-app.get('/',function (req,res) {
-    res.status(200).sendFile('dist/index.html');
-});
 
 let projectData ={};
 // runs the function when post test is called from client
@@ -46,6 +43,7 @@ app.post('/postData',function (req,res){
 });
 
 // designates what port the app will listen to for incoming requests
-app.listen(8080, function () {
+var server = app.listen(8080, function () {
     console.log('Example app listening on port 8080!')
 })
+module.exports = server;
